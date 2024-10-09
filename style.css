@@ -1,95 +1,106 @@
-body{
-    width: 100%;
-    height: 100%;
-    position: relative;
-    background-color: white;
+body {
+	background-color: white;
+	display: flex;
+}
+
+.Rouge {
+	width: 35%;
+	height: 45%;
+	background-color: red;
+	position: absolute;
+	top: 20%;
+	left: 20%;
+	border-width: 0%;
+    border-radius: 12px;
+    color: red;
+}
+
+.Bleu {
+	width: 35%;
+	height: 45%;
+	background-color: blue;
+	position: absolute;
+	top: 25%;
+	left: 25%;
+	border-width: 0%;
+    border-radius: 12px;
+    color: blue;
+}
+
+.Vert {
+	width: 35%;
+	height: 45%;
+	background-color: green;
+	position: absolute;
+	top: 30%;
+	left: 30%;
+	border-width: 0%;
+    border-radius: 12px;
+    color: green;
+}
+
+.Cookies {
+	background-color: #d9d9d9;
+	border-width: 0%;
+	border-radius: 36px;
+	bottom: 3%;
+	left: 3%;
+	width: 40%;
+	height: 15%;
+    position: absolute;
+}
+
+.Refuser {
+	background-color: white;
+	border-radius: 12px;
+	border-width: 1px;
+	border-color: #008cff;
+	height: 30%;
+	width: 30%;
+	bottom: 4%;
+	left: 5%;
+	flex-direction: row;
+    position: absolute;
+    flex-direction: row;
     display: flex;
 }
 
-.Rouge{
-    width: 50%;
-    height: 50%;
-    background-color: red;
-    position: relative;
-    top: 20%;
-    left: 20%;
-    border-width: 0%;
-}
-
-.Bleu{
-    width: 50%;
-    height: 50%;
-    background-color: blue;
-    position: relative;
-    top: 25%;
-    left: 25%;
-    border-width: 0%;
-}
-
-.Vert{
-    width: 50%;
-    height: 50%;
-    background-color: green;
-    position: relative;
-    top: 30%;
-    left: 30%;
-    border-width: 0%;
-}
-
-.Cookies{
-    background-color: #D9D9D9;
-    border-width: 0%;
-    border-radius: 36px;
-    bottom: 3%;
-    left: 3%;
-    width: 40%;
-    height: 15%;
+.Accepter {
+	background-color: #1a81e1;
+	border-radius: 12px;
+	border-width: 0px;
+	bottom: 4%;
+	left: 65%;
+	height: 30%;
+	width: 30%;
+	flex-direction: row;
+    position: absolute;
+    display: flex;
     flex-direction: row;
 }
 
-.Refuser{
-    background-color: white;
-    border-radius: 12px;
-    border-width: 1px;
-    border-color: #008CFF;
-    height: 5%;
-    width: 15%;
-    bottom: 4%;
-    left: 5%;
-    flex-direction: row;
+h1 {
+	font-size: 40px;
+	font-weight: 500;
+	line-height: 33.89px;
+	text-align: center;
+	color: black;
 }
 
-.Accepter{
-    background-color: #1A81E1;
-    border-radius: 12px;
-    border-width: 0px;
-    bottom: 4%;
-    left: 15%;
-    height: 5%;
-    width: 15%;
-    flex-direction: row;
+h2 {
+	font-size: 25px;
+	font-weight: 500;
+	line-height: 19.36px;
+	align-self: center;
+    margin-left: 25%;
+	color: #008cff;
 }
 
-h1{
-    font-size: 28px;
-    font-weight: 500;
-    line-height: 33.89px;
-    text-align: center;
-    color: black;
-}
-
-h2{
-    font-size: 16px;
-    font-weight: 500;
-    line-height: 19.36px;
-    text-align: center;
-    color: #008CFF;
-}
-
-h3{
-    font-size: 16px;
-    font-weight: 500;
-    line-height: 19.36px;
-    text-align: center;
-    color: #1A81E1;
+h3 {
+	font-size: 25px;
+	font-weight: 500;
+	line-height: 19.36px;
+	color: white;
+    align-self: center;
+    margin-left: 25%;
 }
